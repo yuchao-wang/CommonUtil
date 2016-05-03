@@ -16,5 +16,5 @@
 #   public *;
 #}
 
--keep,includedescriptorclasses class com.google.gson.** { *; }
+-keep class com.google.gson.** { *; }
 -dontwarn com.google.gson.**

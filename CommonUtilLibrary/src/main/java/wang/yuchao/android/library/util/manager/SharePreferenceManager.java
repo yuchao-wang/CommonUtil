@@ -9,12 +9,6 @@ import wang.yuchao.android.library.util.CommonUtilLibrary;
 import wang.yuchao.android.library.util.DeviceUtil;
 
 /**
- * SharePreference存储分为两类：
- * <pre>
- * 0.存取对象最好用GSON
- * 1.应用级别(主要是变量存储,应用全局唯一的，举例：手机唯一标识，每个手机的唯一登陆的用户个人信息)
- * 2.用户级别(每个用户的信息,目前很少用到，暂时没有)
- * </pre>
  * Created by wangyuchao on 15/11/6.
  */
 public class SharePreferenceManager {

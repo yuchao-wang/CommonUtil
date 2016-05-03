@@ -23,7 +23,6 @@ import java.util.UUID;
 import wang.yuchao.android.library.util.manager.SharePreferenceManager;
 
 /**
- * 应用设备信息相关，全局变量都不直接用
  * Created by wangyuchao on 15/11/6.
  */
 public class DeviceUtil {
@@ -45,9 +44,6 @@ public class DeviceUtil {
     private static String packageName = context.getPackageName();//初始化默认包名
     private static String systemVersion = "";
 
-    /**
-     * 得到UUID
-     */
     public static String getUUID() {
         if (TextUtils.isEmpty(uuid)) {
             String tempUUID = SharePreferenceManager.getUUID();
@@ -61,9 +57,6 @@ public class DeviceUtil {
         return uuid;
     }
 
-    /**
-     * 是否有外置存储
-     */
     public static boolean hasExternalStorage() {
         String strStatus = android.os.Environment.getExternalStorageState();
         if (Environment.MEDIA_MOUNTED.equals(strStatus)) {
@@ -73,16 +66,10 @@ public class DeviceUtil {
         }
     }
 
-    /**
-     * @return 设备型号
-     */
     public static String getModel() {
         return Build.MODEL;
     }
 
-    /**
-     * @return 设备制造商
-     */
     public static String getManufacturer() {
         return Build.MANUFACTURER;
     }
@@ -109,9 +96,6 @@ public class DeviceUtil {
         return getDeviceId();
     }
 
-    /**
-     * SIM卡序列号
-     */
     public static String getSimSerialNumber() {
         if (TextUtils.isEmpty(simSerialNumber)) {
             try {
@@ -182,12 +166,11 @@ public class DeviceUtil {
         return versionCode;
     }
 
-    public static String getAppChannel() {
+    public static String getAppChannel(String key, String value) {
         if (TextUtils.isEmpty(appChannel)) {
             try {
                 ApplicationInfo applicationInfo = context.getPackageManager().getApplicationInfo(context.getPackageName(), PackageManager.GET_META_DATA);
-                //TODO update
-                appChannel = applicationInfo.metaData.getString("UMENG_CHANNEL", "default_channel");
+                appChannel = applicationInfo.metaData.getString(key, value);
             } catch (Exception e) {
                 e.printStackTrace();
             }

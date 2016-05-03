@@ -8,11 +8,6 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 /**
- * Gson解析帮助类
- * <pre>
- *     @Expose//序列化
- *     @SerializedName("name")//序列化名字
- * </pre>
  * Created by wangyuchao on 16/1/14.
  */
 public class GsonUtil {

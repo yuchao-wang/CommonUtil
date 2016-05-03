@@ -5,7 +5,6 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 /**
- * 转换帮助类
  * Created by wangyuchao on 15/11/9.
  */
 public class ConvertUtil {
@@ -20,11 +19,6 @@ public class ConvertUtil {
         }
     }
 
-    /**
-     * 把毫秒转换为日期（Java后台常用）
-     *
-     * @param millis 0 -> 正无穷
-     */
     public static String parseMillisToDate1(long millis) {
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         return sdf.format(new Date(millis));
@@ -40,11 +34,6 @@ public class ConvertUtil {
         return sdf.format(new Date(millis));
     }
 
-    /**
-     * 把秒转换为日期（PHP后台常用）
-     *
-     * @param seconds 0 -> 正无穷
-     */
     public static String parseSecondsToDate1(long seconds) {
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         return sdf.format(new Date(seconds * 1000));
@@ -60,33 +49,18 @@ public class ConvertUtil {
         return sdf.format(new Date(seconds * 1000));
     }
 
-    /**
-     * 把秒转换为时间
-     *
-     * @param seconds 0 - 24 * 60 * 60
-     */
     public static String parseSecondsToTime(long seconds) {
         return seconds / 3600 + ":" + seconds % 3600 / 60 + ":" + seconds % 60;
     }
 
-
-    /**
-     * 格式化价格
-     */
     public static String formatPrice(String price) {
         return "¥" + String.format("%.2f", Float.valueOf(price));
     }
 
-    /**
-     * 格式化百分比
-     */
     public static String formatPercent(double percent) {
         return String.format("(%2.0f%%)", (float) (percent * 100));
     }
 
-    /**
-     * 转换为倒计时的时间「不超过一个小时的」
-     */
     public static String parseToCountDownTime(long mills) {
         int minutes = (int) ((mills / 1000) % 3600 / 60);
         int seconds = (int) ((mills / 1000) % 3600 % 60);
