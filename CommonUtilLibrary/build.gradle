@@ -38,7 +38,7 @@ ext {
     siteUrl = 'https://github.com/yuchao-wang/CommonUtil'
     gitUrl = 'https://github.com/yuchao-wang/CommonUtil.git'
 
-    libraryVersion = '1.0.0'
+    libraryVersion = '1.0.1'
 
     developerId = 'wangyuchao'
     developerName = 'yuchao-wang'

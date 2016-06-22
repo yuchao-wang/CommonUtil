@@ -8,6 +8,13 @@
 
 ### Update
 
+#### 1.0.1（2016/06/22）
+
+**ADD**
+
+1. VerifyUtil
+2. LogUtil
+
 #### 1.0.0（2016/05/03）
 
 **ADD**
@@ -21,7 +28,7 @@
 ### Dependence 
 
 ```
-compile 'wang.yuchao.android.library.util:CommonUtilLibrary:1.0.0'
+compile 'wang.yuchao.android.library.util:CommonUtilLibrary:1.0.1'
 ```
 
 ### How To Use
