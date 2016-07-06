@@ -65,18 +65,18 @@
     <color name="text_white">@color/white</color>
     <color name="text_black">@color/black</color>
 
-    <color name="text_grey_light_er">@color/grey_light_er</color>
-    <color name="text_grey_light">@color/grey_light</color>
     <color name="text_grey">@color/grey</color>
+    <color name="text_grey_light">@color/grey_light</color>
     <color name="text_grey_dark">@color/grey_dark</color>
-    <color name="text_grey_dark_er">@color/grey_dark_er</color>
 
-    <color name="text_red">@color/red</color>
-    <color name="text_orange">@color/orange</color>
-    <color name="text_yellow">@color/yellow</color>
+    <color name="text_red">#FF0000</color>
+    <color name="text_orange">#FFA500</color>
+    <color name="text_yellow">#FFFF00</color>
     <color name="text_green">@color/green</color>
-    <color name="text_blue">@color/blue</color>
-    <color name="text_purple">@color/purple</color>
+    <color name="text_blue">#0000FF</color>
+    <color name="text_indigo">#4B0082</color>
+    <color name="text_purple">#800080</color>
+    <color name="text_brown">#A52A2A</color>
 
     <!--========================================================================================-->
     <!--================================基本色系：12色相环========================================-->
