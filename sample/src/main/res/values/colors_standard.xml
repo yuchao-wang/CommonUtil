@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--========================================================================================-->
+    <!--================================基本色系：黑白灰==========================================-->
+    <!--========================================================================================-->
+    <color name="transparent">#00000000</color>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="grey_light_er">#FFD0D0D0</color>
+    <color name="grey_light">#FFA0A0A0</color>
+    <color name="grey">#FF808080</color>
+    <color name="grey_dark">#FF505050</color>
+    <color name="grey_dark_er">#FF202020</color>
+
+    <!--========================================================================================-->
+    <!--========================常用颜色：红、橙、黄、绿、蓝、紫====================================-->
+    <!--========================================================================================-->
+
+    <!--红色-->
+    <color name="red">#FFFF0000</color>
+    <color name="red_light">#FFFF4F4F</color>
+    <color name="red_dark">#FFDF0000</color>
+
+    <!--橙色-->
+    <color name="orange">#FFFF7F00</color>
+    <color name="orange_light">#FFFF9F00</color>
+    <color name="orange_dark">#FFFF5F00</color>
+
+    <!--黄色-->
+    <color name="yellow">#FFFFF000</color>
+    <color name="yellow_light">#FFFFFF7F</color>
+    <color name="yellow_dark">#FFFFD900</color>
+
+    <!--绿色-->
+    <color name="green">#FF50A625</color>
+    <color name="green_light">#FF70C645</color>
+    <color name="green_dark">#FF409615</color>
+
+    <!--蓝色-->
+    <color name="blue">#FF0000FF</color>
+    <color name="blue_light">#FF005FFF</color>
+    <color name="blue_dark">#FF0000DF</color>
+
+    <!--紫色-->
+    <color name="purple">#FF7F00FF</color>
+    <color name="purple_light">#FF9F00FF</color>
+    <color name="purple_dark">#FF5F00DF</color>
+
+
+    <!--========================================================================================-->
+    <!--=====================================通用色系============================================-->
+    <!--========================================================================================-->
+    <color name="app_background">#F5F5F5</color>
+
+    <color name="line_for_vertical">#D3D3D3</color>
+    <color name="line_for_horizontal">#D3D3D3</color>
+
+    <!--=========================================================================================-->
+    <!--=====================================字体色系=============================================-->
+    <!--=========================================================================================-->
+
+    <color name="text_white">@color/white</color>
+    <color name="text_black">@color/black</color>
+
+    <color name="text_grey_light_er">@color/grey_light_er</color>
+    <color name="text_grey_light">@color/grey_light</color>
+    <color name="text_grey">@color/grey</color>
+    <color name="text_grey_dark">@color/grey_dark</color>
+    <color name="text_grey_dark_er">@color/grey_dark_er</color>
+
+    <color name="text_red">@color/red</color>
+    <color name="text_orange">@color/orange</color>
+    <color name="text_yellow">@color/yellow</color>
+    <color name="text_green">@color/green</color>
+    <color name="text_blue">@color/blue</color>
+    <color name="text_purple">@color/purple</color>
+
+    <!--========================================================================================-->
+    <!--================================基本色系：12色相环========================================-->
+    <!--========================================================================================-->
+
+    <!--&lt;!&ndash;红色：三基色&ndash;&gt;-->
+    <!--<color name="red">#FFFF0000</color>-->
+    <!--<color name="red_light">#FFFF4F4F</color>-->
+    <!--<color name="red_dark">#FFDF0000</color>-->
+
+    <!--&lt;!&ndash;橙色：黄红中间&ndash;&gt;-->
+    <!--<color name="orange">#FFFF7F00</color>-->
+    <!--<color name="orange_light">#FFFF9F00</color>-->
+    <!--<color name="orange_dark">#FFFF5F00</color>-->
+
+    <!--&lt;!&ndash;黄色：红绿中间&ndash;&gt;-->
+    <!--<color name="yellow">#FFFFFF00</color>-->
+    <!--<color name="yellow_light">#FFFFFF7F</color>-->
+    <!--<color name="yellow_dark">#FFFFDF00</color>-->
+
+    <!--&lt;!&ndash;黄绿色：黄绿中间&ndash;&gt;-->
+    <!--<color name="yellow_green">#FF7F7F00</color>-->
+    <!--<color name="yellow_green_light">#FF9F9F00</color>-->
+    <!--<color name="yellow_green_dark">#FF6F6F00</color>-->
+
+    <!--&lt;!&ndash;绿色：三基色&ndash;&gt;-->
+    <!--<color name="green">#FF00FF00</color>-->
+    <!--<color name="green_light">#FF8FFF8F</color>-->
+    <!--<color name="green_dark">#FF00EF00</color>-->
+
+    <!--&lt;!&ndash;青绿色：青色和绿色中间&ndash;&gt;-->
+    <!--<color name="darkcyan">#FF00FF7F</color>-->
+    <!--<color name="darkcyan_light">#FF00FF9F</color>-->
+    <!--<color name="darkcyan_dark">#FF00EF00</color>-->
+
+    <!--&lt;!&ndash;青色：蓝绿中间&ndash;&gt;-->
+    <!--<color name="cyan">#FF00FFFF</color>-->
+    <!--<color name="cyan_light">#FF7FFFFF</color>-->
+    <!--<color name="cyan_dark">#FF00DFDF</color>-->
+
+    <!--&lt;!&ndash;靛色：青色和蓝色中间&ndash;&gt;-->
+    <!--<color name="dodgerblue">#FF007FFF</color>-->
+    <!--<color name="dodgerblue_light">#FF009FFF</color>-->
+    <!--<color name="dodgerblue_dark">#FF005FDF</color>-->
+
+    <!--&lt;!&ndash;蓝色：三基色&ndash;&gt;-->
+    <!--<color name="blue">#FF0000FF</color>-->
+    <!--<color name="blue_light">#FF005FFF</color>-->
+    <!--<color name="blue_dark">#FF0000DF</color>-->
+
+    <!--&lt;!&ndash;紫色：蓝色和品红色之间&ndash;&gt;-->
+    <!--<color name="purple">#FF7F00FF</color>-->
+    <!--<color name="purple_light">#FF9F00FF</color>-->
+    <!--<color name="purple_dark">#FF5F00DF</color>-->
+
+    <!--&lt;!&ndash;品红色：红色和蓝色中间&ndash;&gt;-->
+    <!--<color name="magenta">#FFFF00FF</color>-->
+    <!--<color name="magenta_light">#FFFF7FFF</color>-->
+    <!--<color name="magenta_dark">#FFDF00DF</color>-->
+
+    <!--&lt;!&ndash;紫红色：品红和红色中间&ndash;&gt;-->
+    <!--<color name="deeppink">#FFFF007F</color>-->
+    <!--<color name="deeppink_light">#FFFF5F7F</color>-->
+    <!--<color name="deeppink_dark">#FFFF003F</color>-->
+
+</resources>
