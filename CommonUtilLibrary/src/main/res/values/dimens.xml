@@ -1,23 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!--字体大小-->
-    <dimen name="text_huge">21sp</dimen>
-    <dimen name="text_large">19sp</dimen>
-    <dimen name="text_big">17sp</dimen>
-    <dimen name="text_normal">15sp</dimen>
-    <dimen name="text_small">13sp</dimen>
-    <dimen name="text_little">11sp</dimen>
-    <dimen name="text_tiny">9sp</dimen>
+    <dimen name="text_huge_er">28sp</dimen>
+    <dimen name="text_huge">26sp</dimen>
+    <dimen name="text_large_er">24sp</dimen>
+    <dimen name="text_large">22sp</dimen>
+    <dimen name="text_big_er">20sp</dimen>
+    <dimen name="text_big">18sp</dimen>
+    <dimen name="text_normal">16sp</dimen>
+    <dimen name="text_small">14sp</dimen>
+    <dimen name="text_small_er">12sp</dimen>
+    <dimen name="text_little">10sp</dimen>
+    <dimen name="text_little_er">8sp</dimen>
+    <dimen name="text_tiny">6sp</dimen>
+    <dimen name="text_tiny_er">4sp</dimen>
 
     <!--边距-->
+    <dimen name="margin_huge_er">32dp</dimen>
     <dimen name="margin_huge">30dp</dimen>
+    <dimen name="margin_large_er_er">28dp</dimen>
+    <dimen name="margin_large_er">26dp</dimen>
     <dimen name="margin_large">24dp</dimen>
-    <dimen name="margin_big">18dp</dimen>
+    <dimen name="margin_big_er_er">18dp</dimen>
+    <dimen name="margin_big_er">16dp</dimen>
+    <dimen name="margin_big">14dp</dimen>
     <dimen name="margin_normal">12dp</dimen>
-    <dimen name="margin_small_10">10dp</dimen>
-    <dimen name="margin_small_8">8dp</dimen>
-    <dimen name="margin_small_6">6dp</dimen>
-    <dimen name="margin_little">4dp</dimen>
+    <dimen name="margin_small">10dp</dimen>
+    <dimen name="margin_small_er">8dp</dimen>
+    <dimen name="margin_little">6dp</dimen>
+    <dimen name="margin_little_er">4dp</dimen>
     <dimen name="margin_tiny">2dp</dimen>
 
     <!--细线-->
