@@ -8,22 +8,29 @@
 
 ### Update
 
+#### 1.0.2(2016/07/09)
+
+**ADD**
+
+- FileUtil、SystemUtil、UriUtil、UrlUtil
+- FixedSpeedScroller
+
 #### 1.0.1（2016/06/22）
 
 **ADD**
 
-1. VerifyUtil
-2. LogUtil
+- VerifyUtil
+- LogUtil
 
 #### 1.0.0（2016/05/03）
 
 **ADD**
 
-1. ClickUtil、ConvertUtil、DeviceUtil、DimensionUtil、GsonUtil、NetworkUtil、ViewUtil
-2. CountDownTimer:compatible CountDownTimer
-3. AsyncTaskNew:no thread pool to control
-4. MD5
-5. SharePreferenceManager:save single class to preference
+- ClickUtil、ConvertUtil、DeviceUtil、DimensionUtil、GsonUtil、NetworkUtil、ViewUtil
+- CountDownTimer:compatible CountDownTimer
+- AsyncTaskNew:no thread pool to control
+- MD5
+- SharePreferenceManager:save single class to preference
 
 ### Dependence 
 
