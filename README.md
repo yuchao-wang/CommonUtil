@@ -8,12 +8,13 @@
 
 ### Update
 
-#### 1.0.2(2016/07/09)
+#### 1.0.3(2016/07/09)
 
 **ADD**
 
 - FileUtil、SystemUtil、UriUtil、UrlUtil
 - FixedSpeedScroller
+- BitmapUtil
 
 #### 1.0.1（2016/06/22）
 
@@ -21,7 +22,6 @@
 
 - VerifyUtil
 - LogUtil
-- BitmapUtil
 
 #### 1.0.0（2016/05/03）
 
