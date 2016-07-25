@@ -23,9 +23,9 @@ dependencies {
     testCompile 'junit:junit:4.12'
     compile 'com.google.code.gson:gson:2.4'
 
-    //二维码：https://github.com/zxing/zxing  二维码相关
-    compile 'com.google.zxing:core:3.2.1'
-    compile 'com.google.zxing:android-core:3.2.1'
+//    //二维码：https://github.com/zxing/zxing  二维码相关
+//    compile 'com.google.zxing:core:3.2.1'
+//    compile 'com.google.zxing:android-core:3.2.1'
 }
 
 ext {
@@ -42,7 +42,7 @@ ext {
     siteUrl = 'https://github.com/yuchao-wang/CommonUtil'
     gitUrl = 'https://github.com/yuchao-wang/CommonUtil.git'
 
-    libraryVersion = '1.0.3'
+    libraryVersion = '1.0.4'
 
     developerId = 'wangyuchao'
     developerName = 'yuchao-wang'
