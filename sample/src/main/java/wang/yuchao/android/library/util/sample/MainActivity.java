@@ -1,8 +1,9 @@
-package wang.yuchao.android.library.util.sample.commonutil;
+package wang.yuchao.android.library.util.sample;
 
 import android.app.Activity;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import wang.yuchao.android.library.util.sample.commonutil.R;
 
 public class MainActivity extends Activity {
 
